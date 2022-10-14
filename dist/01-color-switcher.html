@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color switcher</title>
+    <link rel="stylesheet" href="/01-color-switcher.101ee4ef.css">
+    <style>html, body {
+  min-height: 100vh;
+}
+
+body {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+p {
+  flex-basis: 100%;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+  padding: 1em 2em;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button + button {
+  margin-left: .75em;
+}
+
+</style>
+  </head>
+  <body>
+    <p><a href="/index.html">Go back</a></p>
+
+    <button type="button" data-start="">START</button>
+    <button type="button" data-stop="">STOP</button>
+
+    <script src="/01-color-switcher.52e3b619.js" defer=""></script>
+  </body>
+</html>
