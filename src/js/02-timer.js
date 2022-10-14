@@ -51,6 +51,7 @@ function timerStart() {
   }, 1000);
 }
 
+
 function onStartClick() {
   timerStart();
   refs.startBtn.disabled = true;
